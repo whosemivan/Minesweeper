@@ -130,6 +130,8 @@ export default function App() {
           setIsActive(true);
           setSeconds(40 * 60);
 
+          setSad(false);
+
           setTime(0);
           clearInterval(intervalRef.current);
           setIsRunning(true);
