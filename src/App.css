@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
-}
+ .game {
+     background-color: #C0C0C0;
+     border: 5px solid #ffffff;
+ }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ .row {
+     display: flex;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+ .item {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 24px;
+     height: 24px;
+ }
 
-.App-link {
-  color: #61dafb;
-}
+ .top-panel {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+ }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ .status {
+     background-image: url("../public/sprite.png");
+     background-position: -2px 58px;
+     width: 26px;
+     height: 26px;
+ }
+
+ .item {
+     width: 16px;
+     height: 16px;
+     background-image: url("../public/sprite.png");
+     background-position: 0 34px;
+ }
+
+ .item--tnt {
+     background-position: -85px 32px;
+ }
+
+ .item--flag {
+    background-position: -34px 32px;
+ }
+
+ .item--question {
+    background-position: -69px 32px;
+ }
+
+ .status--scary {
+    background-position: -56px 58px;
+ }
+
+ .status--sad {
+    background-position: -110px 58px;
+ }
+
+ .status--win {
+    background-position: 57px 58px;
+ }
